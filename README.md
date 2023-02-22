@@ -1,6 +1,5 @@
 <p> Introduction :
 ==============
-<code>$ nano secret.txt</code>
 Steghide is a steganography program that is able to hide data in various kinds
 of image- and audio-files. The color- respectivly sample-frequencies are not
 changed thus making the embedding resistant against first-order statistical
@@ -97,10 +96,10 @@ manpage.
 
 The basic usage is as follows:
 
-  $ steghide embed -cf picture.jpg -ef secret.txt
+  <code>$ steghide embed -cf picture.jpg -ef secret.txt
   Enter passphrase:
   Re-Enter passphrase:
-  embedding "secret.txt" in "picture.jpg"... done
+    embedding "secret.txt" in "picture.jpg"... done </code>
 
 This command will embed the file secret.txt in the cover file picture.jpg.
 
